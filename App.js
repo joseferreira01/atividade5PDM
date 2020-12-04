@@ -35,9 +35,9 @@ export default function App() {
     { !!errorMessage && <Text>{errorMessage}</Text> }
 
     { projects.map(project => (
-      <View key={project.id} style={{ marginTop: 15 }}>
+      <View key={project.id} style={{ marginTop: 10 }}>
         <Text style={{ fontWeight: 'bold' }}>{project.title}</Text>
-        <Text>{project.url}</Text>
+       
       </View>
     ))}
   </View>
